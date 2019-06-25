@@ -7,7 +7,8 @@
         <strong>Note : </strong><br />
         To generate nested or tree, please use <a href="http://demos.krajee.com/tree-manager#prepare-database">kartik-v\yii2-tree-manager</a> for table structure<br />
         <strong>If table contains all the defined columns, the generator will automatically generate model that extends </strong><code>\kartik\tree\models\Tree</code>
-    </blockquote>
+        <strong>Edited by sammy</strong>    
+</blockquote>
 <?php
 echo $form->field($generator, 'db');
 echo $form->field($generator, 'tableName');
