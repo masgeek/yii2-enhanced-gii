@@ -444,6 +444,7 @@ class Generator extends BaseGenerator {
                     $types['integer'][] = $column->name;
                     break;
                 case Schema::TYPE_BOOLEAN:
+                case Schema::TYPE_TINYINT:
                     $types['boolean'][] = $column->name;
                     break;
                 case Schema::TYPE_FLOAT:
