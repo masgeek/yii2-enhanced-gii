@@ -414,7 +414,8 @@ abstract class BaseGenerator extends \yii\gii\Generator
                 break;
             }
         }
-        return $this->classNames[$fullTableName] = Inflector::id2camel($schemaName . $className, '_');
+        //return $this->classNames[$fullTableName] = Inflector::id2camel($schemaName . $className, '_');
+        return $this->classNames[$fullTableName] = Inflector::id2camel($className, '_');
     }
 
     /**
